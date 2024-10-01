@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  
+}
+.logo{
+    color: yellow;
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgb(17, 17, 17);
+        margin-left: 15px;
+        margin-top: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17, 17, 17);
+    height: 50px;
+   
+}
+
+header  nav ul  {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgb(17, 17, 17);
+    margin-right: 15px;
+    margin-top: 15px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(17, 17, 17);
+}
+header nav ul li{
+    list-style: none;
+    background-color: rgb(17, 17, 17);
+}
+.your-cart{
+    text-align: center;
+    color: blue;
+    
+}
+.outer{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(208, 248, 248);
+    display: flex;
+}
+.product{
+    width: 60%;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 1px solid rgb(172, 172, 172);
+}
+.both{
+    width: 96%;
+    border: 0.5px solid grey;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 12px;
+    display: flex;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border: 0.5px solid rgb(209, 206, 206);
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.img img{
+   width: 100%;
+   height: 100%;
+}
+.price-detail{
+    border: 1px solid rgb(172, 172, 172);
+    width: 20%;
+    height: 140px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.price-detail h3{
+    text-align: center;
+    color: grey;
+}
+.save{
+    color: green;
+   text-align: center;
+   margin-top:10px ;
+}
+.price-detail h6{
+   margin-top: 3px;
+}
+.price-detail h4{
+    margin-top: 5px;
+}
+.both .txt{
+    
+    width: 400px;
+    height: 120px;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+.both .txt h3{
+    color: rgb(92, 92, 92);
+
+}
+.both .txt button{
+    background-color: rgb(241, 101, 20);
+    border-width: 0.1px;
+    border-radius: 14px;
+    width: 70px;height: 20px;
+    color: aliceblue;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+.both .txt h4{
+    margin-top: 5px;
+}
+.both .txt h5{
+    margin-top: 5px;
+    color: green;
+}
+.place-order{
+    background-color: rgb(219, 109, 6);
+    border-width: 0.5px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 72%;
+    
+}
